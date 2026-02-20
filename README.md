@@ -1,17 +1,17 @@
 ## Project Structure
 
 ```text
-markdowneditor/
+.
 ├── index.html
-├── js/
-│   ├── main.js
-│   ├── parsed/
-│   │   ├── blocks.js
-│   │   ├── index.js
-│   │   └── inline.js
-│   └── parsed.js.history
-├── script.js.history
+├── js
+│   ├── main.js
+│   └── parsed
+│       ├── blocks.js
+│       ├── index.js
+│       └── inline.js
+├── README.md
 └── style.css
+
 ```
 
 This project is a browser-based Markdown editor built with HTML, CSS, and JavaScript. At least a basic implementation of it
