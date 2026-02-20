@@ -17,7 +17,7 @@ markdowneditor/
 This project is a browser-based Markdown editor built with HTML, CSS, and JavaScript. At least a basic implementation of it
 
 1. Clone my repo:
-  ```bash
+   ```bash
    git clone https://github.com/your-username/markdowneditor.git
    ```
 
