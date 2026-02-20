@@ -26,6 +26,10 @@ export function parseBlocks(text) {
       continue;
     }
 
+    if (line.trim() === "")
+    continue;
+    
+    if (line.trim() !== "")
     result.push("<p>" + parseInLine(line) + "</p>");
   }
   if (inUl) result.push("</ul>");
