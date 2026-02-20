@@ -11,7 +11,6 @@
 │       └── inline.js
 ├── README.md
 └── style.css
-
 ```
 
 This project is a browser-based Markdown editor built with HTML, CSS, and JavaScript. At least a basic implementation of it
