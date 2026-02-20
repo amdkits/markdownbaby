@@ -26,10 +26,7 @@ This project is a browser-based Markdown editor built with HTML, CSS, and JavaSc
    cd markdowneditor
    ```
 
-3. Open `index.html` in your browser:
-
-   - Double-click the file  
-   OR  
+3. Do Not Open `index.html` in your browser:
    - Run a local server (recommended for development)
 
 ---
