@@ -15,6 +15,12 @@ function parsedMarkdown(text) {
   let result = lines.map(line => {
     
     // heading
+    if (line.startsWith("#### "))
+      return "<h4>" + line.slice(5) + "</h4>"
+
+    if (line.startsWith("### "))
+      return "<h3>" + line.slice(4) + "</h3>"
+
     if (line.startsWith("## ")) 
       return "<h2>" + line.slice(3) + "</h2>";
     
